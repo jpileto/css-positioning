@@ -27,3 +27,43 @@ figure {
   width: 50%;
   margin: 40px auto;
 }
+
+/* edited through dev tools in chrome */
+
+.film {
+    border: 1px solid grey;
+    position: relative;
+    overflow: auto;
+    margin: 40px auto;
+}
+
+figure.film-poster {
+    float: left;
+    width: 30%;
+}
+
+.film img {
+    width: 100%;
+    padding: 10px;
+}
+
+.film-details {
+    float: left;
+    width: 70%;
+}
+
+i.fa.fa-2x.fa-clock-o {
+    position: absolute;
+    left: 140px;
+    top: 20px;
+    color: red;
+}
+
+i.fa.fa-lg.fa-star {
+}
+
+.action-like {
+    position: absolute;
+    right: 20px;
+    color: red;
+}
